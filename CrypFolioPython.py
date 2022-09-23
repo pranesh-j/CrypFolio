@@ -6,7 +6,7 @@ import json
 #Use an API of a crypto currency tracking website that allows users to fetch cryptocurrency data such as price, volume, market cap, and exchange data etc...
 
 api_request = requests.get(
-    "https://api.coingecko.com/api/v3/coins/markets?vs_currency=inr&order=market_cap_desc&per_page=100&page=1&sparkline=false"
+    "https://api.coingecko.com/api/v3/coins/markets?vs_currency=inr&order=market_cap_desc&per_page=100&page=1&sparkline=false"  #Crypto-INR pair
 )
 api = json.loads(api_request.content)
 
