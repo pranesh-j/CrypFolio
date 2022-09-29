@@ -73,7 +73,7 @@ for x in range(30000):
 
     else:
 
-        print("Please enter the correct symbol dummy or type Q to exit:\n")
+        print("Please enter the correct symbol or type Q to exit:\n")
         print("------------------------------------------")
         print("------------------------------------------")
 
