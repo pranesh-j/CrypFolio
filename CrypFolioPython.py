@@ -1,5 +1,5 @@
 text = "Welcome to your CrypFolio"
-print(f"{text:'^50}")
+print(f"{text:'^40}")
 
 import requests
 import json
