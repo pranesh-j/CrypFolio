@@ -24,7 +24,7 @@ for x in range(30000):
     coin = input(
         "enter the coin symbol ex: BTC, ETH, MATIC, DOGE or type Q to quit and view your overall portfolio value:\n ------------------------------------------\n").lower()
 
-    print("-"*25)
+    print("-"*30)
 
     if coin == "q":
         break
