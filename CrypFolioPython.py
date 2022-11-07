@@ -1,4 +1,5 @@
-print("``````Welcome to your CrypFolio``````")
+text = "Welcome to your CrypFolio"
+print(f"{text:'^50}")
 
 import requests
 import json
@@ -16,15 +17,14 @@ Portfolio_profit_loss = 0
 
 total_portfolio_value = 0
 
-print("------------------------------------------")
+printprint("-"*50)
 
 for x in range(30000):
 
     coin = input(
-        "enter the coin symbol ex: BTC, ETH, MATIC, DOGE or type Q to quit and view your overall portfolio value:\n ------------------------------------------\n"
-    ).lower()
+        "enter the coin symbol ex: BTC, ETH, MATIC, DOGE or type Q to quit and view your overall portfolio value:\n ------------------------------------------\n").lower()
 
-    print("------------------------------------------")
+    print("-"*25)
 
     if coin == "q":
         break
