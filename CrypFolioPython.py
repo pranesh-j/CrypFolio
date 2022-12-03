@@ -17,7 +17,7 @@ Portfolio_profit_loss = 0
 
 total_portfolio_value = 0
 
-printprint("-"*50)
+print("-"*50)
 
 for x in range(30000):
 
